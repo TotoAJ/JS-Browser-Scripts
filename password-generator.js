@@ -1,4 +1,4 @@
-javascript:(function(){
+javascript:(async function(){
   const groups = 3;
   const charsPerGroup = 6;
   const separator = '-';
@@ -12,5 +12,5 @@ javascript:(function(){
       password += separator;
     }
   }
-  navigator.clipboard.writeText(password).then(alert("Your new password has been generated and copied to your clipboard"));
+  await navigator.clipboard.writeText(password).then(async function() {await alert("Your new password has been generated and copied to your clipboard");});
 })();

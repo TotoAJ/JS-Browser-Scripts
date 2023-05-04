@@ -1,7 +1,7 @@
 (function(){
-  const groups = 3; // number of groups of characters in the password
-  const charsPerGroup = 6; // number of characters in each group
-  const separator = '-'; // separator character between groups
+  const groups = 3;
+  const charsPerGroup = 6;
+  const separator = '-';
   const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*";
   let password = "";
   for (let i = 0; i < groups; i++) {

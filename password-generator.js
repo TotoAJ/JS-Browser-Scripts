@@ -1,6 +1,6 @@
 javascript:(async function(){
   const groups = 3;
-  const charsPerGroup = 6;
+  const charsPerGroup = 8;
   const separator = '-';
   const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()";
   let password = "";

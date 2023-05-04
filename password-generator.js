@@ -1,4 +1,4 @@
-(function(){
+javascript:(function(){
   const groups = 3;
   const charsPerGroup = 6;
   const separator = '-';

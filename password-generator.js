@@ -13,5 +13,5 @@
     }
   }
   navigator.clipboard.writeText(password);
-  alert("Your password has been generated and copied to your clipboard:\n\n" + password);
+  alert("Your new password has been generated and copied to your clipboard");
 })();

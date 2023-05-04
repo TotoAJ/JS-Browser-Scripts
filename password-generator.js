@@ -12,7 +12,5 @@
       password += separator;
     }
   }
-  document.body.focus();
-  navigator.clipboard.writeText(password);
-  alert("Your new password has been generated and copied to your clipboard");
+  navigator.clipboard.writeText(password).then(alert("Your new password has been generated and copied to your clipboard"));
 })();

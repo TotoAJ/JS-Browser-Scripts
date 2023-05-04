@@ -12,7 +12,7 @@
       password += separator;
     }
   }
-  document.focus();
+  document.body.focus();
   navigator.clipboard.writeText(password);
   alert("Your new password has been generated and copied to your clipboard");
 })();
